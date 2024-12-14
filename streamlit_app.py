@@ -80,9 +80,4 @@ user_input = st.text_input("Masukkan judul berita:")
 
 if user_input:
     predicted_category = predict_category(user_input)
-    st.write(f"**Kategori untuk judul berita** '{user_input}' **adalah** {predicted_category}")
-
-# Menampilkan evaluasi model
-st.write("### Evaluasi Model")
-st.write(f"**Accuracy:** {accuracy}")
-st.write(f"**Classification Report:**\n {classification_report_text}")
+    st.write(f"Kategori untuk judul berita '**{user_input}**' adalah **{predicted_category}**")
