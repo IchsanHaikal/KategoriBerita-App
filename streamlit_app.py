@@ -12,6 +12,7 @@ from nltk.tokenize import word_tokenize
 # Download stopwords dan tokenizer
 nltk.download('stopwords')
 nltk.download('punkt')
+nltk.download('punkt_tab')
 
 # Membaca dataset
 data = pd.read_excel('JudulBerita.xlsx')
