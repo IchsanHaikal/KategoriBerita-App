@@ -81,3 +81,5 @@ user_input = st.text_input("Masukkan judul berita:")
 if user_input:
     predicted_category = predict_category(user_input)
     st.write(f"Kategori untuk judul berita '**{user_input}**' adalah **{predicted_category}**")
+
+st.write("Created By : Ichsan Haikal (41521010101)")
